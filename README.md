@@ -11,3 +11,8 @@ In the worst case, the Big-Oh runtime is n^2. Once again, using the midpoint as 
 e.g: 6,4,2,1,3,5,7 <br>
 By working with subarrays that shrink by 1 with each call, we require n-1 nested calls, resulting in the n^2 runtime. 
 
+<h2> Methodology </h2>
+
+We used for loops to call QuickSort on the arrays 1,000 times and then averaged out the time value. <br>
+System.nanoTime() allowed us to measure how long each task took (on average) in nanoseconds <br>
+Pivot selection affects runtime massively, determing how optimally QuickSort will be able to do its job. Data arrangement is thus a major factor as well, determing the future pivot positions of QuickSort's calls to sort the subarrays.
