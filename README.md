@@ -1,4 +1,4 @@
-# andTeam-oWasOurName-o
+# andTeam-oWasOurName-o (Maria Acuna, David Apterman, Arpita Nag)
 <h2> Assessment of QuickSort's Big-Oh runtime </h2>
 
 In the best case, the Big-Oh runtime is n log n. Our implementation used the midpoint as the pivot position. If the value at the pivot position is the median value in the array, and the numbers on the left are all less than the median and sorted in descending order, and the numbers on the right are all greater than the median and sorted in descending order, QuickSort will always divide the array into optimal sub-arrays. <br>
